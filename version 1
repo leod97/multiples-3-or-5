@@ -1,0 +1,11 @@
+def solution(number):
+    mult3=[]
+    mult5=[]
+    for i in range(number):
+        if i%3==0:
+            mult3.append(i)
+        elif i%5==0:
+            mult5.append(i)
+    return sum(mult3+mult5)
+        
+  
